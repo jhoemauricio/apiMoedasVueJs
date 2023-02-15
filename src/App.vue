@@ -31,7 +31,7 @@ export default {
   },
 
   //propriedade setup
-  //expoe dos dados da API no component
+  //expoe os dados da API no component
   setup() {
     const data = reactive({
       //dados reativos
