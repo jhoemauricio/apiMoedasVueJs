@@ -33,6 +33,8 @@ export default {
   //propriedade setup
   //expoe os dados da API no component
   setup() {
+    // quando usar reactive é obrigatorio passar um objeto
+    //reactive lhe dar com objetos reativos
     const data = reactive({
       //dados reativos
       //quotes são as moedas
