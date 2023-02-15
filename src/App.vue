@@ -42,6 +42,7 @@ export default {
     });
 
     //onMounted é do tipo asycrono
+    //no onMounted que se faz as requisições da API
     onMounted(async () => {
       //sempre que fizer requisicao do tipo async tem que esperar entao usao o await
       const response = await api.all();
